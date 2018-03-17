@@ -1,6 +1,6 @@
 # Final-Project-Breast-Cancer-Diagnosis-Data-Analysis
 
-<a href="https://github.com/SYU2017/Final-Project-Breast-Cancer-Diagnosis-Data-Analysis" target="_blank"><img src="image/dataset-image.jpg" alt="dataset-image"></a>
+<a href="https://syu2017.github.io/Final-Project-Breast-Cancer-Diagnosis-Data-Analysis/" target="_blank"><img src="image/dataset-image.jpg" alt="dataset-image"></a>
 
 https://breast-cancer-diagnosis.herokuapp.com/
 
