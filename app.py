@@ -77,7 +77,7 @@ def make_predict():
             cancer = 'Malignant'
         print("The breast cancer of this patient should be: %s" % (cancer,) )
 
-        return render_template('model.html', diagnosis = (cancer,) )
+        return render_template('model.html', diagnosis = cancer )
 
 
 if __name__ == '__main__':

@@ -27,9 +27,9 @@
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
+             <!--<div class="container-fluid">-->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="./navpage.html"><span class="glyphicon glyphicon-home ">Breast Cancer Diagnosis</a>
+                    <a class="navbar-brand" href="./landing.html"><span class="name">Breast Cancer Wisconsin (Diagnostic) Data Analysis</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls=" navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -37,36 +37,23 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Feature Model Plots
                             <span class="caret"></span></button> 
                             <ul class="dropdown-menu">
-                                <li><a href="./visualization-image-1.html">features correlation</a></li>
-                                <li><a href="./visualization-image-2.html">features selection</a></li>
-                                <li><a href="./visualization-image-3.html">features importances</a></li>
-                                <li><a href="./visualization-image-4.html">Model Classification</a></li>
+                                <li><a href="./dataset.html">Dataset Information</a></li>
+                                <li><a href="./visualization-image-1.html">Features correlation</a></li>
+                                <li><a href="./visualization-image-2.html">Features selection</a></li>
+                                <li><a href="./visualization-image-3.html">Features importances</a></li>
+                                <li><a href="./visualization-image-4.html">Model Selection</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle highlight" data-toggle="dropdown" href="#"> Dashboard 
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-highlight ">
-                            <a href="mean_dashbord.html" class="highlight">B vs.M Features Mean</a>
-                            </li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="scatter_dashboard.html" class="highlight">Scatter Plots of Features</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="NLP_dashboard.html" class="highlight"> NLP Top Words</a></li>
-
-
-                        </ul>
-                    </li>
-                    <li><a class="highlight" href="index-dataTables.html"> Data </a></li>
-                    <li><a class="highlight" href="https://github.com/SYU2017/Airbnb_listings_Analysis" target="_blank"> Code </a></li>
-                    <li><a class="highlight" href="https:// .herokuapp.com/" target="_blank"> Breast Cancer Type Predictor </a></li>
-                    </li>
+                     
+                    <li><a class="highlight " href="https://public.tableau.com/profile/shuzhen.yu#!/vizhome/Book2_20270/Dashboard1">Tableau Dashboard</a></li>
+                    <li><a class="highlight " href="./index-dataTables.html">Data</a></li>
+                    <li><a class="highlight " href="https://github.com/SYU2017/Final-Project-Breast-Cancer-Diagnosis-Data-Analysis" target="_blank">Github</a></li>
+                    <li><a class="highlight " href="https://breast-cancer-diagnosis.herokuapp.com/" target="_blank"> Breast Cancer Type Predictor</a></li>
+                    <li><a class="highlight " href="./index-dataTables_NLP.html" target="_blank">NLP Text Mining</a></li>
                 </ul>
             </div>
         </nav>
@@ -81,9 +68,9 @@
                             </div>
                             <div class="content">
                                <img src="./ML-image/mean_correlation.png" alt="mean_correlation" class="img-responsive">
-	                           <p class="category">'radius_mean','perimeter_mean','area_mean','concavity_mean','concave_points_mean' are correlated with diagnosis so we could use them to create the model. 
+	                           <p class="category">Radius_mean, perimeter_mean, area_mean, concavity_mean, concave_points_mean are correlated with diagnosis so we could use them to create and test the model. 
 	                           </p>
-                               <p class="category">Even 'radius_mean', 'perimeter_mean', 'area_mean' are highly correlated with each other,  we will still use all of them. 
+                               <p class="category">Radius_mean, perimeter_mean, area_mean are highly correlated with each other, we can use one of them or all of them to create the model.
                                </p>
 
                             </div>
@@ -93,7 +80,7 @@
                     <div class="col-sm-12 col-md-4">
                         <div class="box">
                             <div class="header">
-                                <h1 class="title">Model Classification</h1>
+                                <h1 class="title">Model Selection</h1>
                             </div>
                             <div class="content">
                                <a href="./visualization-image-1.html"><img src="./ML-image/mean_correlation.png" alt="mean_correlation" height="180" width="180"></a>
@@ -111,12 +98,8 @@
                             </div>
                             <div class="content">
                                <img src="./ML-image/se_correlation.png" alt="se_correlation" class="img-responsive">
-                               <p class="category">Only 'radius_se', and 'perimeter_se' are just slightly correlated with diagnosis so we will not use the se features to create the model. 
+                               <p class="category">Only radius_se and perimeter_se are just slightly correlated with diagnosis so we will not use the SE features to create the model. 
                                </p> 
-                               </p>
-                               <p class="category"> 'radius_worst', 'perimeter_worst', 'area_worst', 'concavity_worst', 'concave-points_worst' are correlated with diagnosis so we will use them to create the model. Even 'radius_worst', 'perimeter_worst', 'area_worst' are highly correlated with each other we will use all of them to create the model.
-                               </p> 
-
                             </div>
                         </div>
                     </div>
@@ -128,9 +111,8 @@
                             </div>
                             <div class="content">
                                <img src="./ML-image/worst_correlation.png" alt="worst_correlation" class="img-responsive">
-                               <p class="category">'radius_worst', 'perimeter_worst', 'area_worst', 'concavity_worst', 'concave-points_worst' are correlated with diagnosis so we will use them to create the model. 
-                               </p> 
-                               <p class="category"> 'radius_worst', 'perimeter_worst', 'area_worst' are highly correlated with each other but we will still use all of them to create the model.
+                               <p class="category"> Radius_worst, perimeter_worst, area_worst, concavity_worst, concave-points_worst are correlated with diagnosis so we will use them to create the model.</p> 
+                               <p class="category"> Radius_worst, perimeter_worst, area_worst are highly correlated with each other we can use one of them or all of them to create the model.
                                </p> 
 
                             </div>
