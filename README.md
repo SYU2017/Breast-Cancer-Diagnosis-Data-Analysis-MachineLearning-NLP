@@ -1,4 +1,4 @@
-# Final-Project-Breast-Cancer-Diagnosis-Data-Analysis
+# Breast-Cancer-Diagnosis-Data-Analysis
 (click image to see the data visualization)
 
 <a href="https://syu2017.github.io/Final-Project-Breast-Cancer-Diagnosis-Data-Analysis/" target="_blank"><img src="image/dataset-image.jpg" alt="dataset-image"></a>
