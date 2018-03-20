@@ -1,5 +1,5 @@
 # Breast-Cancer-Diagnosis-Data-Analysis
-(click image to see the data visualization)
+(#Please click image to see the project data visualization)
 
 <a href="https://syu2017.github.io/Breast-Cancer-Diagnosis-Data-Analysis-MachineLearning-NLP" target="_blank"><img src="./image/dataset-image.jpg" alt="dataset-image"></a>
 
