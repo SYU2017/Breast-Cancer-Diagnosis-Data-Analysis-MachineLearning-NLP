@@ -5,6 +5,8 @@
 
 ## https://syu2017.github.io/Breast-Cancer-Diagnosis-Data-Analysis-MachineLearning-NLP/
 
+![picture](image/page.png)
+
 ## https://breast-cancer-diagnosis.herokuapp.com/
 
 ## https://public.tableau.com/profile/shuzhen.yu#!/vizhome/Book2_20270/Dashboard1?publish=yes
