@@ -5,7 +5,7 @@
 
 ## https://syu2017.github.io/Breast-Cancer-Diagnosis-Data-Analysis-MachineLearning-NLP/
 
-![picture](image/page.png)
+![picture](image/Untitled.png)
 
 ## https://breast-cancer-diagnosis.herokuapp.com/
 
