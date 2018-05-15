@@ -11,3 +11,7 @@
 
 ## https://public.tableau.com/profile/shuzhen.yu#!/vizhome/Book2_20270/Dashboard1?publish=yes
 
+
+## This project analyzes and visualizes patients’ data collected from UC Irvine Machine Learning Repository to provide dashboards and deploy Flask app on Heroku for a user to classify breast tumors as malignant or benign.  
+## Used Python, Seaborn, Machine Learning(Scikit-learn), NLP and Tableau to analyze data. Then used JavaScript, HTML/CSS and Flask app to create dashboards and graph the data.
+
